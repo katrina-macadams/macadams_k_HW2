@@ -1,0 +1,16 @@
+@use '../abstracts' as a;
+
+header {
+    background-color: #D6D3CE;
+    padding: 8px;
+}
+
+a {
+    margin-top: 12px;
+    font-family: 'Alata';
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f0647e;
+}
