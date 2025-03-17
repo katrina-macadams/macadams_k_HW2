@@ -19,13 +19,13 @@
     <script src="js/ScrollTrigger.min.js" defer></script>
     
 
-    <script src="js/main.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
     <title>OOP</title>
 </head>
 <body>
     <header>
         <section class="grid-con">
-           <a class="m-col-span-5" src="#">Find My Plant</a>
+           <a class="m-col-span-5" src="index.html">Find My Plant</a>
            <h1 class="col-span-2 m-col-start-6">PLANTPAL</h1>
         </section>
     </header>
@@ -34,7 +34,7 @@
         <section id="hero" class="grid-con">
             <h1 class="col-span-4">MEET YOUR NEW GREEN COMPANION!</h1>
             <h2 class="col-start-1 col-span-4">Take the quiz to discover the plant that’ll thrive with your vibe.</h2>
-            <button class="col-start-1 col-span-2 m-col-start-1 m-col-span-3">Take the quiz</button>
+            <button id="startQuiz" class="col-start-1 col-span-2 m-col-start-1 m-col-span-3">Take the quiz</button>
         </section>
 
         <section id="plants" class="plant-group">
@@ -45,27 +45,34 @@
             <img src="images/yellow-elder.png" alt="yellow elder plant" class="plant plant-5">
         </section>
 
-    <section id="quiz" style="display: none;">
+    <section id="quiz">
         <form id="plantQuiz">
             <h2>Plant Personality Quiz</h2>
-            <label for="motto">What motto resonates with you most?</label>
-            <select id="motto" name="motto">
-                <option value="Cheerful & Social 🌸">“The more light, the better! Let’s shine!”</option>
-                <option value="Dreamy & Artistic 🍃"> “Go with the flow, stay creative, and keep growing.”</option>
-                <option value="Confident & Playful 🌺">“Make a statement, be bold, and turn heads!”</option>
-                <option value="Independent & Resilient 🌵">“Stay strong, stay chill, and don’t need much to thrive.”</option>
-                <option value="Calm & Thoughtful 🌿">“Find beauty in the quiet moments.”</option>
-            </select>
+            <div id="motto-cont">
+                <label for="motto">What motto resonates with you most?</label>
+                <select id="motto" name="motto">
+                    <option value="Cheerful & Social 🌸">“The more light, the better! Let’s shine!”</option>
+                    <option value="Dreamy & Artistic 🍃"> “Go with the flow, stay creative, and keep growing.”</option>
+                    <option value="Confident & Playful 🌺">“Make a statement, be bold, and turn heads!”</option>
+                    <option value="Independent & Resilient 🌵">“Stay strong, stay chill, and don’t need much to thrive.”</option>
+                    <option value="Calm & Thoughtful 🌿">“Find beauty in the quiet moments.”</option>
+                </select>
+            <button class="nextQuestion" type="button">Next</button>
+             </div>
 
-            <label for="light">What kind of light do you prefer?</label>
-            <select id="light" name="light">
-                <option value="bright, direct sunlight">Bright, and sunny! I love being in the sun!</option>
-                <option value="soft, indirect light">Soft and cozy light, I like a chill vibe. </option>
-                <option value="bright, indirect light">I like bright and warm light, but I don't like to sit directly in the sun</option>
-                <option value="direct sunlight but tolerates shade">I like being directly in the sun, but the shade is cool too</option>
-                <option value="gentle, dappled light">A very gentle light through the blinds, or the leaves of a tree, nothing too crazy </option>
-            </select>
+            <div id="light-cont">
+                <label for="light">What kind of light do you prefer?</label>
+                <select id="light" name="light">
+                    <option value="bright, direct sunlight">Bright, and sunny! I love being in the sun!</option>
+                    <option value="soft, indirect light">Soft and cozy light, I like a chill vibe. </option>
+                    <option value="bright, indirect light">I like bright and warm light, but I don't like to sit directly in the sun</option>
+                    <option value="direct sunlight but tolerates shade">I like being directly in the sun, but the shade is cool too</option>
+                    <option value="gentle, dappled light">A very gentle light through the blinds, or the leaves of a tree, nothing too crazy </option>
+                </select>
+                <button class="nextQuestion" type="button">Next</button>
+            </div>
 
+        <div id="water-cont">
             <label for="water">How often do you remember to water plants (or, um, yourself)?</label>
             <select id="water" name="water">
                 <option value="every few days">Every few days. I occaisionally forget.</option>
@@ -74,7 +81,10 @@
                 <option value="water every few weeks">Eh, every couple weeks. I'm low-maintenance </option>
                 <option value="light watering every 10-14 days">Water?? Oh, right… I’ll get to it eventually.</option>
             </select>
+            <button class="nextQuestion" type="button">Next</button>
+        </div>
 
+        <div id="fav-cont">
             <label for="favourite">What's your favourite pastime?></label>
             <select id="favourite" name="favourite">
                 <option value="friendly conversations">Being surrounded by friends, chatting, and making people smile!</option>
@@ -84,7 +94,8 @@
                 <option value="cozy corners and deep thoughts">A quiet, cozy nook, a warm drink, and time to reflect.</option>
             </select>
 
-            <button type="button" onclick="submitQuiz()">Submit</button>
+            <button id="submitQuiz" type="button">Submit</button>
+        </div>
         </form>
     </section>
 

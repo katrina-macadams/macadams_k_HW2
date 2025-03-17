@@ -1,4 +1,6 @@
-const lulu = new Plant(
+import { Plant, FloweringPlant } from "./modules/plant.js";
+
+const lulu = new FloweringPlant(
     "Lulu", 
     "Yellow Elder", 
     "Cheerful & Social 🌸", 
@@ -16,7 +18,7 @@ const lulu = new Plant(
     "**loves listening to soft lo-fi music** while growing! 🎶"
   );
   
-  const zara = new Plant(
+  const zara = new FloweringPlant(
     "Zara", 
     "Flamingo Flower", 
     "Confident & Playful 🌺", 
@@ -42,3 +44,15 @@ const lulu = new Plant(
     "Needs **light watering every 10-14 days** 💧", 
     "enjoys peaceful, **cozy corners and deep thoughts**! ☕"
   );
+
+  export { lulu, echo, zara, roo, milo};
+
+  import { startQuiz, submitQuiz } from "./modules/quiz.js";
+  
+  document.querySelector('#startQuiz').addEventListener('click', () => {
+    document.querySelector('#hero').classList.add('slide-out-left');
+    document.querySelector('#plants').classList.add('slide-out-right');
+    document.querySelector('#quiz').classList.add('active');
+});
+
+document.querySelector('#submitQuiz').addEventListener('click', submitQuiz);
