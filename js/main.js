@@ -4,7 +4,7 @@ const lulu = new Plant(
     "Cheerful & Social 🌸", 
     "Loves **bright, direct sunlight** ☀️", 
     "Needs water **every few days** 💧", 
-    "adores morning sun and friendly conversations! ☀️"
+    "adores morning sun and **friendly conversations**! ☀️"
   );
   
   const echo = new Plant(
@@ -13,7 +13,7 @@ const lulu = new Plant(
     "Dreamy & Artistic 🍃", 
     "Prefers **soft, indirect light** 🌥️", 
     "Enjoys a **weekly watering + occasional misting** 💦", 
-    "loves listening to soft lo-fi music while growing! 🎶"
+    "**loves listening to soft lo-fi music** while growing! 🎶"
   );
   
   const zara = new Plant(
@@ -21,8 +21,8 @@ const lulu = new Plant(
     "Flamingo Flower", 
     "Confident & Playful 🌺", 
     "Thrives in **bright, indirect light** 🌞", 
-    "Loves **humid air & regular watering** 💦", 
-    "can't resist a little drama & attention! 💃"
+    "Loves **humid air & water every few days** 💦", 
+    "**can't resist a little drama** & attention! 💃"
   );
   
   const roo = new Plant(
@@ -31,7 +31,7 @@ const lulu = new Plant(
     "Independent & Resilient 🌵", 
     "Enjoys **direct sunlight but tolerates shade** 🌅", 
     "Only needs **water every few weeks** 🌵", 
-    "loves soaking up the sun and being a low-maintenance legend! ☀️"
+    "loves soaking up the sun and being **a low-maintenance legend**! ☀️"
   );
   
   const milo = new Plant(
@@ -40,5 +40,5 @@ const lulu = new Plant(
     "Calm & Thoughtful 🌿", 
     "Prefers **gentle, dappled light** 🍂", 
     "Needs **light watering every 10-14 days** 💧", 
-    "enjoys peaceful, cozy corners and deep thoughts! ☕"
+    "enjoys peaceful, **cozy corners and deep thoughts**! ☕"
   );

@@ -45,7 +45,53 @@
             <img src="images/yellow-elder.png" alt="yellow elder plant" class="plant plant-5">
         </section>
 
-        
+    <section id="quiz" style="display: none;">
+        <form id="plantQuiz">
+            <h2>Plant Personality Quiz</h2>
+            <label for="motto">What motto resonates with you most?</label>
+            <select id="motto" name="motto">
+                <option value="Cheerful & Social 🌸">“The more light, the better! Let’s shine!”</option>
+                <option value="Dreamy & Artistic 🍃"> “Go with the flow, stay creative, and keep growing.”</option>
+                <option value="Confident & Playful 🌺">“Make a statement, be bold, and turn heads!”</option>
+                <option value="Independent & Resilient 🌵">“Stay strong, stay chill, and don’t need much to thrive.”</option>
+                <option value="Calm & Thoughtful 🌿">“Find beauty in the quiet moments.”</option>
+            </select>
+
+            <label for="light">What kind of light do you prefer?</label>
+            <select id="light" name="light">
+                <option value="bright, direct sunlight">Bright, and sunny! I love being in the sun!</option>
+                <option value="soft, indirect light">Soft and cozy light, I like a chill vibe. </option>
+                <option value="bright, indirect light">I like bright and warm light, but I don't like to sit directly in the sun</option>
+                <option value="direct sunlight but tolerates shade">I like being directly in the sun, but the shade is cool too</option>
+                <option value="gentle, dappled light">A very gentle light through the blinds, or the leaves of a tree, nothing too crazy </option>
+            </select>
+
+            <label for="water">How often do you remember to water plants (or, um, yourself)?</label>
+            <select id="water" name="water">
+                <option value="every few days">Every few days. I occaisionally forget.</option>
+                <option value="weekly watering + occasional misting">Once a week sounds good</option>
+                <option value="humid air & water every few days">I drink water every few days, but I love a good humidfier</option>
+                <option value="water every few weeks">Eh, every couple weeks. I'm low-maintenance </option>
+                <option value="light watering every 10-14 days">Water?? Oh, right… I’ll get to it eventually.</option>
+            </select>
+
+            <label for="favourite">What's your favourite pastime?></label>
+            <select id="favourite" name="favourite">
+                <option value="friendly conversations">Being surrounded by friends, chatting, and making people smile!</option>
+                <option value="loves listening to soft lo-fi music">Getting lost in a dreamy playlist while painting or journaling.</option>
+                <option value="can't resist a little drama">All eyes on me! I love excitement, gossip, and looking fabulous.”</option>
+                <option value="a low-maintenance legend">Basking in the sun, taking it easy, and doing things my way.</option>
+                <option value="cozy corners and deep thoughts">A quiet, cozy nook, a warm drink, and time to reflect.</option>
+            </select>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+    </section>
+
+    <section id="result" style="display: none;">
+        <h2>Your Plant Match</h2>
+        <p id="plantMatch"></p>
+    </section>
     </main>
 
 
