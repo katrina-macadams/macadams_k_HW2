@@ -14,13 +14,13 @@
 }
 
 .plant-1 {
-    left: 25%;
+    left: 23%;
     z-index: 1;
     width: 300px;
 }
 
 .plant-2 {
-    left: 35%;
+    left: 33%;
     z-index: 2;
     width: 250px;
 }
@@ -28,17 +28,56 @@
 .plant-3 {
     left: 45%;
     z-index: 3;
-    width: 315px;
+    width: 320px;
 }
 
 .plant-4 {
-    left: 61%;
+    left: 65%;
     z-index: 2;
-    width: 190px;
+    width: 180px;
 }
 
 .plant-5 {
-    left: 70%;
+    left: 75%;
     z-index: 1;
-    width: 200px;
+    width: 190px;
 }
+
+
+@media screen and (max-width: 768px) {
+.plant {
+    position: absolute;
+}
+
+.plant-1 {
+    left: 22%;
+    z-index: 1;
+    width: 150px;
+}
+
+.plant-2 {
+    left: 33%;
+    z-index: 2;
+    width: 120px;
+}
+
+.plant-3 {
+    left: 45%;
+    z-index: 3;
+    width: 145px;
+}
+
+.plant-4 {
+    left: 64%;
+    z-index: 2;
+    width: 85px;
+}
+
+.plant-5 {
+    left: 73%;
+    z-index: 1;
+    width: 90px;
+}
+
+
+    }
