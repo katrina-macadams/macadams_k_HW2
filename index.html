@@ -18,14 +18,13 @@
     <script src="js/ScrollToPlugin.min.js" defer></script>
     <script src="js/ScrollTrigger.min.js" defer></script>
     
-
     <script type="module" src="js/main.js" defer></script>
     <title>OOP</title>
 </head>
 <body>
     <header>
         <section class="grid-con">
-           <a class="m-col-span-5" src="index.html">Find My Plant</a>
+           <a class="m-col-span-5" src="#">Find My Plant</a>
            <h1 class="col-span-2 m-col-start-6">PLANTPAL</h1>
         </section>
     </header>
@@ -48,7 +47,7 @@
     <section id="quiz">
         <form id="plantQuiz">
             <h2>Plant Personality Quiz</h2>
-            <div id="motto-cont">
+            <div id="motto-cont" class="question active">
                 <label for="motto">What motto resonates with you most?</label>
                 <select id="motto" name="motto">
                     <option value="Cheerful & Social 🌸">“The more light, the better! Let’s shine!”</option>
@@ -60,7 +59,7 @@
             <button class="nextQuestion" type="button">Next</button>
              </div>
 
-            <div id="light-cont">
+            <div id="light-cont" class="question">
                 <label for="light">What kind of light do you prefer?</label>
                 <select id="light" name="light">
                     <option value="bright, direct sunlight">Bright, and sunny! I love being in the sun!</option>
@@ -72,7 +71,7 @@
                 <button class="nextQuestion" type="button">Next</button>
             </div>
 
-        <div id="water-cont">
+        <div id="water-cont" class="question">
             <label for="water">How often do you remember to water plants (or, um, yourself)?</label>
             <select id="water" name="water">
                 <option value="every few days">Every few days. I occaisionally forget.</option>
@@ -81,10 +80,10 @@
                 <option value="water every few weeks">Eh, every couple weeks. I'm low-maintenance </option>
                 <option value="light watering every 10-14 days">Water?? Oh, right… I’ll get to it eventually.</option>
             </select>
-            <button class="nextQuestion" type="button">Next</button>
+                      <button class="nextQuestion" type="button">Next</button>
         </div>
 
-        <div id="fav-cont">
+        <div id="fav-cont" class="question">
             <label for="favourite">What's your favourite pastime?></label>
             <select id="favourite" name="favourite">
                 <option value="friendly conversations">Being surrounded by friends, chatting, and making people smile!</option>

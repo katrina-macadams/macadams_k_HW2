@@ -5,17 +5,20 @@ class Plant {
         personality, 
         light, 
         water, 
-        favouriteThing) {
+        favouriteThing,
+        image) {
+
         this.name = name;
         this.type = type;
         this.personality = personality;
         this.light = light;
         this.water = water;
         this.favouriteThing = favouriteThing;
+        this.image = image;
     }
 
     describe() {
-        return `${this.name} is a ${this.type} plant. It is ${this.personality}, prefers ${this.light}, needs ${this.water}, and ${this.favouriteThing}.`;
+        return `${this.name} is a ${this.type} plant. It is ${this.personality}, and ${this.favouriteThing}.`;
     }
 
     careInstructions() {
