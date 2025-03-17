@@ -5,10 +5,17 @@ header {
     padding: 8px;
 }
 
+header h1 {
+    text-align: center;
+    align-items: center;
+    margin: 12px 0;
+}
+
 a {
     margin-top: 12px;
     font-family: 'Alata';
     transition: color 0.3s ease;
+    margin-right: 0;
 }
 
 a:hover {
