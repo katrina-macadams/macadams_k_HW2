@@ -28,6 +28,16 @@
     animation: fadeIn 5s forwards;
 }
 
+#result {
+    display: none;
+    margin: 34px;
+}
+
+
+#plantMatch img {
+    margin-top: 24px;
+    width: 200px
+}
 
 
 @keyframes fadeIn {

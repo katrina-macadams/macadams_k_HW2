@@ -33,9 +33,10 @@ class FloweringPlant extends Plant {
         personality, 
         light, water, 
         favouriteThing, 
+        image,
         bloomSeason
     ) {
-        super(name, type, personality, light, water, favouriteThing);
+        super(name, type, personality, light, water, favouriteThing, image);
         this.bloomSeason = bloomSeason;
     }
 
