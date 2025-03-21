@@ -58,6 +58,11 @@ document.querySelectorAll('.nextQuestion').forEach(button => {
     });
 });
 
+document.querySelector('#resetQuiz').addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.reload();
+});
+
 questions[0].classList.add('active');
 document.querySelector('#submitQuiz').addEventListener('click', submitQuiz);
 
