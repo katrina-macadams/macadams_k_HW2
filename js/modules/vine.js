@@ -2,7 +2,6 @@ gsap.registerPlugin(DrawSVGPlugin);
 
 
 export function vine() {
-    document.querySelector('.vine-path').style.strokeDasharray = 'none';
     document.querySelector('#startQuiz').addEventListener('click', () => {
         const timeline = gsap.timeline();
     
