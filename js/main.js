@@ -1,7 +1,11 @@
 import { Plant, FloweringPlant } from "./modules/plant.js";
 import { vine } from "./modules/vine.js";
+import { confetti } from "./modules/confetti.js";
+import { plantPal } from "./modules/plantPal.js";
 
 vine();
+confetti();
+plantPal();
 
 const lulu = new FloweringPlant(
     "Lulu", 

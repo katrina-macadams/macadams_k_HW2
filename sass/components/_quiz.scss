@@ -8,8 +8,8 @@
 
 
 .quiz-container {
-    display: flex; /* Align the SVG and quiz side by side */
-    align-items: flex-start; /* Align the SVG and quiz at the top */
+    display: flex; 
+    align-items: flex-start; 
     position: relative;
 }
 
@@ -34,7 +34,7 @@
 }
 
 #plantQuiz {
-    flex-grow: 1; /* Allow the quiz to take up remaining space */
+    flex-grow: 1;
 }
 
 #quiz.active {
