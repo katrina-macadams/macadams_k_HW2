@@ -39,6 +39,34 @@ button:hover {
     will-change: transform, opacity;
 }
 
+#creative-text {
+    display: grid;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: colorShift 10s infinite;
+}
+
+@keyframes colorShift {
+    0% {
+        color: #FF69B4; /* Pink */
+    }
+    20% {
+        color: #1E90FF; /* Blue */
+    }
+    40% {
+        color: #FFD700; /* Gold */
+    }
+    60% {
+        color: #32CD32; /* Green */
+    }
+    80% {
+        color: #FF4500; /* Orange */
+    }
+    100% {
+        color: #FF69B4; /* Back to Pink */
+    }
+}
+
 @keyframes fall {
     0% {
         transform: translateY(0);
