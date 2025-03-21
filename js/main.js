@@ -1,4 +1,7 @@
 import { Plant, FloweringPlant } from "./modules/plant.js";
+import { vine } from "./modules/vine.js";
+
+vine();
 
 const lulu = new FloweringPlant(
     "Lulu", 
@@ -7,7 +10,8 @@ const lulu = new FloweringPlant(
     "bright, direct sunlight ☀️", 
     "water every few days💧", 
     "being surrounded by friends, chatting, and making people smile",
-    "images/yellow-elder.png"
+    "images/yellow-elder.png",
+    "spring, summer, and fall"
 );
 
 const echo = new Plant(
@@ -27,7 +31,8 @@ const zara = new FloweringPlant(
     "bright, indirect light 🌞", 
     "humid air & water every few days 💦", 
     "all eyes on me! I love excitement, gossip, and looking fabulous",
-    "images/flamingo-flower.png"
+    "images/flamingo-flower.png",
+    "year round"
 );
 
 const roo = new Plant(
