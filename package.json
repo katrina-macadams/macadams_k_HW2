@@ -1,0 +1,24 @@
+{
+  "name": "macadams_k_hw2",
+  "version": "1.0.0",
+  "description": "![Plant Gif](images/Plant.gif)",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --publuc-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katrina-macadams/macadams_k_HW2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katrina-macadams/macadams_k_HW2/issues"
+  },
+  "homepage": "https://github.com/katrina-macadams/macadams_k_HW2#readme",
+  "devDependencies": {
+    "parcel": "^2.14.1"
+  }
+}
