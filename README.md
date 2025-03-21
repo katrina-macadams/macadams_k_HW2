@@ -6,7 +6,7 @@
 ## Overview
 This repository contains the code and assets for the PlantPal Quiz to find the plant that fits your personality and lifestyle using OOP classes. 
 
-This website containts the landing page, which seamlessly transitions into a quiz using select options, each option is tallied for a total score which will reveal the plant yopu matched with!!
+This website containts the landing page, which seamlessly transitions into a quiz using select options, each option is tallied for a total score which will reveal the plant you matched with!!
 
 The site is designed to be user-friendly and visually appealing, utilizing modern web technologies and animations.
 
